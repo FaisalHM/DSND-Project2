@@ -4,9 +4,10 @@ This is project 2 from Data Scientist Nanodegree, this project objective is to b
 Link to the repository: https://github.com/FaisalHM/DSND-Project2
 ### Table of Contnt:
 1. [Runing instructions](#r-instructions)
-2. [ETL pipeline](#etl)
-3. [ML pipeline](#ml)
-4. [Web app](web)
+2. [Files Tree](#ftress)
+3. [ETL pipeline](#etl)
+4. [ML pipeline](#ml)
+5. [Web app](web)
 
 ## Runing instructions <a name="r-instructions"></a>
 1. Run the following commands in the project's root directory to set up your database and model.
@@ -20,6 +21,20 @@ Link to the repository: https://github.com/FaisalHM/DSND-Project2
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+## Files Tree <a name="ftree"></a>
+- app
+    - template
+        - master.html
+        - go.html
+    - run.py : Flask Web app
+- data 
+    - disaster_categories.csv : the data to be processed
+    - disaster_messages.csv : the data to be processed
+    - process_data.py : Script that process the data
+- models 
+    - train_classifier.py : the script that build and train the model 
+
 
 
 ## ETL pipeline <a name="etl"></a>
